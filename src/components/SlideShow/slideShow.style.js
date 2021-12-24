@@ -23,7 +23,6 @@ export const Text = styled.div`
   color: var(--white);
   overflow: hidden;
   
-
   .rating-directors {
     display: flex;
     justify-content: flex-start;
@@ -59,7 +58,27 @@ export const Text = styled.div`
   h1 {
     text-align: left;
     @media screen and (max-width: 768px) {
-      font-size: var(--fontBig);
+      font-size: 1em !important;
     }
   }
+
+  h2 {
+    @media screen and (max-width: 768px) {
+      font-size: 1.3em !important;
+    }
+  }
+  h6 {
+    @media screen and (max-width: 768px) {
+      font-size: 0.9em !important;
+    }
+  }
+  
+  p{
+    @media screen and (max-width: 768px) {
+      font-size: 0.85em !important;
+      margin-bottom: 10% !important;
+      margin-top: 5% !important;
+    }
+  }
+  
 `;

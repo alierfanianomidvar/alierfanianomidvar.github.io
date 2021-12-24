@@ -1,8 +1,21 @@
 import styled from "styled-components";
 
-/*
 
-*/
+export const Span = styled.span`
+    color: #f8931c !important;
+
+`;
+
+export const MyIamge = styled.div`
+  .my-img{
+  
+    @media screen and (max-width: 768px) {
+      width: 86% !important;
+    }
+  }
+
+`;
+
 
 export const Div = styled.div`
 
@@ -13,14 +26,19 @@ export const Div = styled.div`
     font-size: 2.4em !important;
     padding-left: 44px !important;
     @media screen and (max-width: 768px) {
-      font-size: 1.7em !important;
+      font-size: 1.4em !important;
+      margin-right: 0px;
+      padding-left: 0px !important;
+      text-align: center!important;
     }
   }
   .heading-name {
     font-size: 2.5em !important;
     padding-left: 45px !important;
     @media screen and (max-width: 768px) {
-      font-size: 1.5em !important;
+      font-size: 1.3em !important;
+      margin-right: 0;
+      padding-left: 0px !important;
     }
   }
   .home-header {
@@ -47,8 +65,9 @@ export const Div = styled.div`
     color: #1178F2;
     text-align: left;
     @media screen and (max-width: 768px) {
-      font-size: 1.5em !important;
+      font-size: 1em !important;
       text-align: center !important;
+      padding-left: 0px !important;
     }
   }
   
@@ -76,6 +95,9 @@ export const Div = styled.div`
   .cv-button{
     @media screen and (max-width: 768px) {
       align-items: center!important;
+      font-size: 1em !important;
+      text-align: center !important;
+      padding-left: 0px !important;
     }
   }
 
@@ -103,7 +125,9 @@ export const Div = styled.div`
     border: 2px solid rgba(108, 89, 179, 0.75);
   }
 
-
+  .my-img{
+    
+  }
 `;
 
 export const Btn = styled.button`

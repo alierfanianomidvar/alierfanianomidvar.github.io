@@ -56,6 +56,10 @@ export const Text = styled.div`
     text-align: left;
   }
 
+  p{
+    text-align:justify !important;
+  }
+  
   h1 {
     text-align: left;
     @media screen and (max-width: 768px) {

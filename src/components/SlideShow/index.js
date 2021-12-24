@@ -32,7 +32,7 @@ const SlideShow = () => (
 
                     <Col md={12}>
                         <Text>
-                            <h2 className='purple'>arsalan mirbozorgi
+                            <h2 className='purple'><strong>arsalan mirbozorgi</strong>
                             </h2>
                             <h6>Senior Java Back end Developer at Medrick FZE</h6>
                         </Text>
@@ -41,7 +41,7 @@ const SlideShow = () => (
                     <Col md={2}></Col>
                     <Col md={8}>
                         <Text>
-                            <p style={{marginBottom: 7 + '%'}}>Ali is a person with great skills and profound experience
+                            <p className="slide-showw-text" style={{marginBottom: 7 + '%'}}>Ali is a person with great skills and profound experience
                                 in modern development solutions. He thinks on the cutting edge of programming, Excellent
                                 and result-driven. Works towards maximal customer satisfaction. He is ready to deal with
                                 difficult situations and solve problems on time. I was his master and co-worker as well.
