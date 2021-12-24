@@ -2,7 +2,13 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
 
-
+  .teck-stack{
+    text-align: -webkit-center;
+    @media (max-width: 767px) {
+       margin-right: 0 !important;
+    }
+  }
+  
 `;
 
 /*   .tech-icons {

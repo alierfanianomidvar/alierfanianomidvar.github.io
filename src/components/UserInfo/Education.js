@@ -2,7 +2,10 @@ import React from "react";
 
 import {
     Text,
-    Hr, TopHr, BotHr, Vl
+    Hr,
+    TopHr,
+    BotHr,
+    Vl
 } from "./UserInfo.style";
 
 import {
@@ -15,7 +18,7 @@ const Education = () => (
     <Col md={12} className="">
         <Text>
             <h1 className="user-info-title" style={{fontSize: "1.6em"}}> Education </h1>
-            <TopHr />
+            <TopHr/>
             <Row>
                 <Col md={1}><Vl></Vl></Col>
                 <Col md={11}>

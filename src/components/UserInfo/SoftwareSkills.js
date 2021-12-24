@@ -17,13 +17,10 @@ const SoftwareSkills = () => (
         <Text>
             <h1 className="user-info-title" style={{fontSize: "1.6em"}}> Skills </h1>
             <TopHr/>
-            <Row>
-                <Col md={1}></Col>
-                <Col md={11}>
-                    <Techstack/>
-                </Col>
 
-            </Row>
+            <Techstack/>
+
+
         </Text>
     </Col>
 )
