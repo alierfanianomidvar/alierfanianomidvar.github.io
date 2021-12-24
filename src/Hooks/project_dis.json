@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Dual-tone multi-frequency signaling (DTFM)",
+      "long_title": "Undergraduate Signal Course, Department of Computer engineering, IUST, Tehran, Iran, May, 2019",
+      "description": "Developed a program (in Python), using the NumPy and FFT library to detect the voice-frequency band over telephone lines.",
+      "git": true,
+      "link": "google.com"
+    },
+    {
+      "id": 2,
+      "title": "Car License Plate Recognition",
+      "long_title": "Undergraduate Artificial Intelligent Course, Department of Computer engineering, IUST, Tehran, Iran, January - February, 2018",
+      "description": "Developed a program, using the CNN Neural Network to detect the Car License Plate.",
+      "git": false,
+      "link": "google.com"
+    },
+    {
+      "id": 3,
+      "title": "Tehran Car",
+      "long_title": "Undergraduate Software engineering Course, Department of Computer engineering, IUST, Tehran, Iran, September - February, 2018",
+      "description": "Team lead developer and head of Front-end development in the creation of a Car Rental Website, using the HTML5/CSS/JS for Front-end and Django for Back-end.",
+      "git": false,
+      "link": "google.com"
+    },
+    {
+      "id": 4,
+      "title": "Teachant",
+      "long_title": "Undergraduate Analysis and design of systems Course, Department of Computer engineering, IUST, Tehran, Iran, March - June, 2018",
+      "description": "Team lead developer and head of Front-end development in the creation of Requesting a Tutor Website, using the HTML5/CSS/JS/ for Front-end and Django for Back-end",
+      "git": false,
+      "link": "google.com"
+    },
+    {
+      "id": 5,
+      "title": "Stronghold (Video game)",
+      "long_title": "Undergraduate Advance Programming Course, Department of Computer engineering, IUST, Tehran, Iran, May, 2017",
+      "description": "Developed a shortest-based routing algorithm in a Strategy game, using an A*algorithm, tasks were prioritized based on proximity to the location.\n",
+      "git": false,
+      "link": "google.com"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+.user-about-description {
+    color: white !important;
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    /*text-align: center;*/
+}
+
+.user-info-title {
+    color: white !important;
+    text-align: left;
+}
+
+.user-info-title {
+    color: white !important;
+    text-align: left;
+}
+
+.myAvtar {
+
+}
+
+.user-bullet-body {
+    padding-top: 10px;
+    font-size: 1.2em !important;
+    text-align: right;
+}
+
+#module {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+#module #collapseExample.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+}
+
+#module #collapseExample.collapsing {
+    height: 3rem;
+}
+
+#module a.collapsed::after {
+    content: '+ Show More';
+}
+
+#module a:not(.collapsed)::after {
+    content: '- Show Less';
+}
+
+
+
+.text-blue {
+    color: #1178f2!important;
+}
