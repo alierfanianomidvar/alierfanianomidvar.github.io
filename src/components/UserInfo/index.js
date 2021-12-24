@@ -12,6 +12,8 @@ import Education from "./Education";
 import SoftwareSkills from "./SoftwareSkills";
 import Projects from "./Projects";
 import WorkExperience from "./WorkExperience";
+import Objetive from "./Objective";
+
 import SlideShow from "../SlideShow";
 
 
@@ -21,6 +23,7 @@ const UserInfo = ({show}) => (
             <Container>
                 <Row>
                     <AboutMe/>
+                    <Objetive />
                     <Education/>
                     <SoftwareSkills/>
                     <Projects/>
