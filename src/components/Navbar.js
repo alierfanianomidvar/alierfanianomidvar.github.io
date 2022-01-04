@@ -64,7 +64,7 @@ function NavBar() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-            {/*<Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -72,11 +72,11 @@ function NavBar() {
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
-            </Nav.Item>*/}
+            </Nav.Item>
             
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/alierfanianomidvar"
                 target="_blank"
                 className="fork-btn-inner"
               >

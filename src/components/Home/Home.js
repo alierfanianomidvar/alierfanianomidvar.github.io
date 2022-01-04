@@ -7,15 +7,37 @@ import Type from "./Type";
 import {AiOutlineDownload} from "react-icons/ai";
 
 import {useFetchProjects} from "../../Hooks/useFetchProjects";
+import {saveAs} from "file-saver";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import {
     Span,
     Div,
     Btn,
-    MyIamge
+    MyIamge,
+    TopHr
 } from "./Home.style";
 
 function Home() {
+    
+    const saveFile = () => {
+        saveAs(
+            "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+            "example.pdf"
+        );
+        toast('Tnx for downloading my cv!', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+        });
+    };
 
+  
 
     return (
         <Div>
@@ -41,16 +63,28 @@ function Home() {
                                 <div style={{paddingLeft: 46, paddingTop: 10}} className="type-writer">
                                     <Type/>
                                 </div>
-
+                             
                                 <div className="cv-button" style={{paddingLeft: 42, paddingTop: 20}}>
-                                    <button type="button" className="btn btn-default">
+                                    <button type="button" className="btn btn-default" onClick={saveFile}>
                                         <AiOutlineDownload/>
                                         Download CV
                                     </button>
+                                    <ToastContainer
+                                        position="top-right"
+                                        autoClose={5000}
+                                        hideProgressBar={false}
+                                        newestOnTop={false}
+                                        closeOnClick
+                                        rtl={false}
+                                        pauseOnFocusLoss
+                                        draggable
+                                        pauseOnHover
+                                    />
                                 </div>
                             </Div>
 
                         </Col>
+
                         <Col md={{span: 5, order: 2}} xs={{span: 12, order: 1}} style={{paddingBottom: 20}}>
                             <MyIamge>
                                 <img src={homeLogo} alt="home pic" className="img-fluid my-img"/>
