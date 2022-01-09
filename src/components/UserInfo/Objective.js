@@ -24,7 +24,7 @@ const Objective = () => (
                 <Col md={1}><Vl></Vl></Col>
                 <Col md={11}>
                     <p className="user-info-body">
-                        A opportunity that will allow me to <b className="purple">utilize my problem solving skills </b>
+                        An opportunity that will allow me to <b className="purple">utilize my problem solving skills </b>
                         and attention to detail to further develop my abilities in the field of
                         <b className="purple"> computer engineering and teamwork. </b>
                     </p>

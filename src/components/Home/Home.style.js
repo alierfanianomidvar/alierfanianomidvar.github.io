@@ -18,7 +18,7 @@ export const MyIamge = styled.div`
 
 
 export const Div = styled.div`
-
+  
   .main-name {
     color: #1178F2;
   }
@@ -153,3 +153,7 @@ export const Btn = styled.button`
   }
 `;
 
+export const TopHr = styled.hr`
+  color: white !important;
+  border-top: 3px solid white !important;
+`;
