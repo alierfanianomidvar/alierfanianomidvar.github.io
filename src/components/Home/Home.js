@@ -23,8 +23,8 @@ function Home() {
     
     const saveFile = () => {
         saveAs(
-            "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-            "example.pdf"
+            "https://github.com/alierfanianomidvar/alierfanianomidvar.github.io/raw/Portfolio-Download-cv/src/Assets/AliErfanianOmidvar.pdf",
+            "AliErfanianOmidvar.pdf"
         );
         toast('Tnx for downloading my cv!', {
             position: "top-right",

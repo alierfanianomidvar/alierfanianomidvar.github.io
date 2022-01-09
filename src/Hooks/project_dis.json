@@ -5,7 +5,7 @@
       "title": "Dual-tone multi-frequency signaling (DTFM)",
       "long_title": "Undergraduate Signal Course, Department of Computer engineering, IUST, Tehran, Iran, May, 2019",
       "description": "Developed a program (in Python), using the NumPy and FFT library to detect the voice-frequency band over telephone lines.",
-      "git": true,
+      "git": false,
       "link": "google.com"
     },
     {
