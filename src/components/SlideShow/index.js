@@ -113,7 +113,7 @@ const SlideShow = () => (
                     <Col md={2}></Col>
                     <Col md={8}>
                         <Text>
-                            <p style={{marginBottom: 7 + '%'}}>Nulla vitae elit libero, a pharetra augue mollis
+                            <p style={{marginBottom: 7 + '%'}}>
                                 I have known Ali since we started our B.Sc. studies at Iran University of Science and
                                 Technology. During these times that we have shared, I found Ali as a dependable,
                                 conscientious, responsible, and well-organized, who is capable of generating new ideas
